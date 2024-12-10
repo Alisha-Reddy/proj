@@ -3,7 +3,6 @@ import {
   Header,
   Sidebar,
   MintRWA,
-  ModifyAsset,
   FractionalOwnership,
   TransferAsset,
 } from "../components/index";
