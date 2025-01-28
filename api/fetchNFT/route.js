@@ -1,5 +1,5 @@
 import { avaCloudSDK } from "@/utils/avaCloud";
-import { fetchMetadata } from "@/utils/fetchMetadata";
+import { fetchMetadata } from "@/utils/fetchMetadata";   
 
 export default async function handler(req, res) {
   const { contractAddress, pageSize = 50 } = req.query;
